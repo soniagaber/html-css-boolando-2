@@ -69,10 +69,15 @@ main{
     width: 100%;
 }
 
+.card{
+    width: calc((100%/3) - 14px);
+    margin-bottom: 25px;
+}
+
 .image-container{
     position: relative;
     cursor: pointer;
-    width: calc((100%/3) - 14px);
+    width: 100%;
 }
 
 .cuore{
