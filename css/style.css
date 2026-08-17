@@ -97,6 +97,21 @@ main{
     font-size: 0.6em;
 }
 
+.sostenibilità {
+    color: white;
+    background-color: green;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    padding: 5px;
+    font-size: 0.6em;
+}
+
+.sostenibilità.attacc {
+    left: 0px;
+}
+
+
 .image-container img{width: 100%;}
 
 #img1 #img1riposo{ display: inline-block;
