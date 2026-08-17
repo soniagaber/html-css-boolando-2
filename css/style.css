@@ -4,7 +4,7 @@
 }
 
 .container-centered{
-    max-width: 1000px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -45,4 +45,97 @@ justify-content: center;}
     text-decoration: none;
     color: white;
     padding: 5px;
+}
+
+/*-----------main--------*/
+
+#riga1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#riga2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image-container{
+    cursor: pointer;
+    width: calc((100%/3) - 14px);
+}
+
+.image-container img{width: 100%;}
+
+#img1 #img1riposo{ display: inline-block;
+}
+
+#img1 #img1hover{
+    display: none;
+}
+#img1:hover #img1riposo{ display: none;
+}
+
+#img1:hover #img1hover{ display: inline-block;
+}
+
+#img2 #img2riposo{ display: inline-block;
+}
+
+#img2 #img2hover{
+    display: none;
+}
+#img2:hover #img2riposo{ display: none;
+}
+
+#img2:hover #img2hover{ display: inline-block;
+}
+
+#img3 #img3riposo{ display: inline-block;
+}
+
+#img3 #img3hover{
+    display: none;
+}
+#img3:hover #img3riposo{ display: none;
+}
+
+#img3:hover #img3hover{ display: inline-block;
+}
+
+#img4 #img4riposo{ display: inline-block;
+}
+
+#img4 #img4hover{
+    display: none;
+}
+#img4:hover #img4riposo{ display: none;
+}
+
+#img4:hover #img4hover{ display: inline-block;
+}
+
+#img5 #img5riposo{ display: inline-block;
+}
+
+#img5 #img5hover{
+    display: none;
+}
+#img5:hover #img5riposo{ display: none;
+}
+
+#img5:hover #img5hover{ display: inline-block;
+}
+
+#img6 #img6riposo{ display: inline-block;
+}
+
+#img6 #img6hover{
+    display: none;
+}
+#img6:hover #img6riposo{ display: none;
+}
+
+#img6:hover #img6hover{ display: inline-block;
 }
